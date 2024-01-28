@@ -3,11 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Linson Alfred - Software Engineer</title>
+  <title>Linson Alfred - Software Developer</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
+      background-color: #f7f7f7;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
     }
 
     h1, h2, h3 {
@@ -19,16 +27,42 @@
       text-decoration: none;
     }
 
-    p {
-      line-height: 1.6;
-    }
-
     .section {
       margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     .experience {
       margin-bottom: 40px;
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .timeline-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-content {
+      flex-grow: 1;
+      margin-right: 20px;
+    }
+
+    .timeline-year {
+      font-size: 18px;
+      font-weight: bold;
+      color: #007BFF;
     }
   </style>
 </head>
@@ -40,22 +74,52 @@
     <p>LinkedIn: <a href="https://www.linkedin.com/in/jklinson/">linkedin.com/in/jklinson</a> | GitHub: <a href="https://github.com/jklinson">github.com/jklinson</a></p>
   </header>
 
-  <section class="section">
-    <h2>Objective</h2>
-    <p>A highly experienced full-stack developer with over 11+ years of expertise in web and mobile application development. Seeking a challenging role in Brisbane, Australia to leverage my technical skills and strong leadership capabilities in designing and maintaining high-performance applications. Passionate about mentoring and fostering a proactive team environment to achieve exceptional results.</p>
-  </section>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h2>Full Stack Developer (Associate Manager) at Pomelo Fashion Co Ltd, Thailand</h2>
+        <p>Mar 2021 - Oct 2023</p>
+        <p>Played a pivotal role in transitioning the system to an event-driven architecture, enhancing scalability and performance...</p>
+      </div>
+      <div class="timeline-year">2021 - 2023</div>
+    </div>
 
-  <section class="section">
-    <h2>Technical Expertise</h2>
-    <p>Proficient with JavaScript, TypeScript, Node.js, React, Angular. Experienced with Scrum methodologies; Certified Scrum Master. Strong grasp of AWS cloud platform – Lambda, DynamoDB, API Gateway, SQS, Cloudfront, Step functions, Event Bus, S3, EC2, ElasticBeanstalk, RDS. Service monitoring tools like Datadog. Skilled in CI/CD pipelines, microservices architecture and DevSecOps. Firm grasp of OOP, system design principles and database systems. Strong background in unit testing and test automation with Jest, Cucumber etc.</p>
-  </section>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h2>Full Stack Developer at TMB Thanachart Bank, Thailand</h2>
+        <p>Oct 2018 - Feb 2022</p>
+        <p>Developed and maintained Ionic applications, delivering web, Android, and iOS solutions for a retail mobile banking application...</p>
+      </div>
+      <div class="timeline-year">2018 - 2022</div>
+    </div>
 
-  <section class="section experience">
-    <h2>Experience</h2>
-    <h3>Full Stack Developer (Associate Manager) at Pomelo Fashion Co Ltd, Thailand (Mar 2021 - Oct 2023)</h3>
-    <p>Played a pivotal role in transitioning the system to an event-driven architecture, enhancing scalability and performance...</p>
-    <!-- Add more experience sections as needed -->
-  </section>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h2>Engineering Lead at Mobme Wireless Solution Pvt Ltd, India</h2>
+        <p>Feb 2016 - Sep 2018</p>
+        <p>Led mobile banking application development, integrating it with IBM Worklight, and utilizing technologies such as Sencha Touch, Backbone, React.js, Node.js, MongoDB, and Docker...</p>
+      </div>
+      <div class="timeline-year">2016 - 2018</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h2>Senior Mobile Developer at Cognizant, India</h2>
+        <p>Jan 2015 - Jan 2016</p>
+        <p>Led efforts to enhance a critical insurance application tailored for sales agents at a major insurance company...</p>
+      </div>
+      <div class="timeline-year">2015 - 2016</div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h2>Software Engineer at Cabot Solutions Pvt Ltd, India</h2>
+        <p>Sep 2012 - Jan 2015</p>
+        <p>Proficiently worked with a range of technologies, including Native Android, Native iOS, Cordova, Sencha Touch, Angular, and Ionic...</p>
+      </div>
+      <div class="timeline-year">2012 - 2015</div>
+    </div>
+  </div>
 
   <section class="section">
     <h2>Education</h2>
